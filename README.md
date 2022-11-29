@@ -4,8 +4,7 @@ This script will give the list of file in a given folder
 
 **command usage**
 
-python A_list_of_file_in_a_directory.py
-
+python A_list_of_file_in_a_directory.py &>list_of_files.txt
 ** **
 
 _A method to open a file in a python_
