@@ -1,6 +1,5 @@
 import glob
 
-txtfiles = []
-for file in glob.glob("*.pdf"):
-    txtfiles.append(file)
+txtfiles = [file for file in glob.glob("*.pdf")]
+for file in txtfiles:
     print(file)
